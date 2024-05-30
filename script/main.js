@@ -37,7 +37,7 @@ document.addEventListener ('DOMContentLoaded', function() {
                     return;
                 }
             
-                let answerVal = que.value;
+            let answerVal = que.value;
                 if (answerVal !== '22') {  //зворотня умова
                     anserr.textContent = 'YOU ARE BOT!!!';
                     anserr.style.display = 'block';  
