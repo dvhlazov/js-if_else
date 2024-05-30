@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+  
+}
+.container {
+    
+    margin: 0 auto;
+}
+
+h4 {
+    text-align: center;
+}
+.form_container {
+    width: 350px;
+    border: 1px dashed black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(233, 233, 253);
+    margin: 0 auto;
+}
+input {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+input#login {
+    margin-left: 99px;
+}
+input#pass {
+    margin-left: 77px;
+}
+input#repass {
+    margin-left: 61px;
+}
+input#question {
+    margin-left: 9px;
+}
+#btn {
+    margin: 20px 0 0 257px;
+}
+#log_not_correct, #passcorr, #pass_not_correct, #answer_not_correct {
+    font-weight: 600;
+    color: red;
+}

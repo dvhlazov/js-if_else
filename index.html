@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <h4>Registration Form</h4>
+    <div class="container">
+        <div class="form_container">
+            <form action="" method="get" id="main_form">
+                <span> Fill the next areas:</span><br>
+                   <label for="login">Login</label> <input type="text" id="login"><br>
+                    <label for="pass">Password</label><input type="password" id="pass">
+                    <label for="repass">Repassword</label><input type="password" id="repass">
+                    <br><label for="question"> Bot detection: '2'+2=</label><input type="number" id="question">
+                    <button id="btn">Submit</button>
+
+            </form>
+            <p id="log_not_correct"></p>
+            <p id="passcorr"></p>
+            <p id="pass_not_correct"></p>
+            <p id="answer_not_correct"></p>
+        </div>
+    </div>
+    <script src="/script/main.js"></script>
+</body>
+</html>
